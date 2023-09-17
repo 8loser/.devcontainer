@@ -1,0 +1,18 @@
+{
+	"editor.defaultFormatter": "vscode.typescript-language-features",
+	"editor.codeActionsOnSave": {
+		// For ESLint
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+
+	// tab 使用 4 個空白
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "eslint.format.enable": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
