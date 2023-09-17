@@ -1,0 +1,22 @@
+{
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+        // For ESLint
+        "source.fixAll.eslint": true
+    },
+    // 自動 format
+    // "editor.formatOnPaste": true,
+    // "editor.formatOnSave": true,
+
+    // tab 使用 4 個空白
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    // 替換 double quote -> single quote
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.format.enable": false
+}
